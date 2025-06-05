@@ -39,4 +39,8 @@ func main(){
     fmt.Println(rangeone,len(rangeone))
     fmt.Println(rangetwo,len(rangetwo))
     fmt.Println(ramgethee,len(ramgethee))
+
+	ramgethee = append(ramgethee, "nadun")
+	fmt.Println(ramgethee, len(ramgethee))
+	fmt.Println(names, len(names))
 }
