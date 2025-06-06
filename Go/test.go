@@ -35,12 +35,15 @@ func main(){
 	rangeone := scores[0:2]
 	rangetwo := names[1:3]
 	ramgethee := names[2:]
+	ramgefour := names[:1]
 
     fmt.Println(rangeone,len(rangeone))
     fmt.Println(rangetwo,len(rangetwo))
     fmt.Println(ramgethee,len(ramgethee))
+    fmt.Println(ramgefour,len(ramgefour))
 
 	ramgethee = append(ramgethee, "nadun")
 	fmt.Println(ramgethee, len(ramgethee))
 	fmt.Println(names, len(names))
+	fmt.Println(ramgefour)
 }
